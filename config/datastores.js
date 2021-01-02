@@ -50,6 +50,11 @@ module.exports.datastores = {
     ***************************************************************************/
     // adapter: 'sails-mysql',
     // url: 'mysql://user:password@host:port/database',
+    adapter: 'sails-mongo',
+    url: 'mongodb://root@localhost:27017/sailsTienda',
+
+    //url: 'mongodb://admin:E9FKQAmR5Vvgnazj@clusterleviatan-shard-00-00.ziqwt.mongodb.net:27017,clusterleviatan-shard-00-01.ziqwt.mongodb.net:27017,clusterleviatan-shard-00-02.ziqwt.mongodb.net:27017/sails?ssl=true&replicaSet=atlas-ro0pwy-shard-0&authSource=admin&retryWrites=true&w=majority'
+    //url: 'mongodb://leviatan:tC!juphX5J$_2yR@ds151242.mlab.com:51242/tienda-sails'
 
   },
 
