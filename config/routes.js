@@ -74,5 +74,4 @@ module.exports.routes = {
     'POST /edit-product/:id': { action: 'products/edit-product' },
     'POST /delete-product/:id': { action: 'products/delete-product' },
 
-    'GET /hotels': { action: 'view-hotels-overview' }
 };
